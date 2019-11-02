@@ -40,6 +40,11 @@ CLANG_CXX_LANGUAGE_STANDARD = c++14
 ROOTSYS=/Users/maurik/root/root.git
 ROOTLIBS=-L${ROOTSYS}/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -lProof -lpthread -stdlib=libc++ -lm -ldl
 
+// ====== Python Version used to compile ROOT with =====
+PYTHON_VERSION=/usr/local/Frameworks/Python.framework/Versions/3.7
+PYTHON_INCLUDE_DIR=${PYTHON_VERSION}/include/python3.7m
+PYTHON_LIBS=${PYTHON_VERSION}/lib/libpython3.7.dylib
+
 // ==== LCIO ========
 LCIO=/data/HPS/lcio
 LCIOHEADERS=${LCIO}/include
@@ -65,4 +70,5 @@ ALWAYS_SEARCH_USER_PATHS = NO
 
 SDKROOT = macosx
 
-
+DYLIB_COMPATIBILITY_VERSION=0
+DYLIB_CURRENT_VERSION=0

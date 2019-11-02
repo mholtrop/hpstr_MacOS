@@ -251,6 +251,7 @@
 		40DA52CD21C428970035D296 /* EventHeader.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventHeader.cxx; path = src/EventHeader.cxx; sourceTree = "<group>"; };
 		40DA52D021C428A20035D296 /* TriggerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriggerData.h; path = include/TriggerData.h; sourceTree = "<group>"; };
 		40DA52D121C428A20035D296 /* EventHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHeader.h; path = include/EventHeader.h; sourceTree = "<group>"; };
+		40DBBE2F236DE29C00C55ABA /* master.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = master.xcconfig; sourceTree = "<group>"; };
 		40E497622353885300C18547 /* HpsEventFile.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HpsEventFile.cxx; path = src/HpsEventFile.cxx; sourceTree = "<group>"; };
 		40E49768235388DB00C18547 /* IEventFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEventFile.h; path = include/IEventFile.h; sourceTree = "<group>"; };
 		40E49769235388DB00C18547 /* HpsEventFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HpsEventFile.h; path = include/HpsEventFile.h; sourceTree = "<group>"; };
@@ -482,6 +483,7 @@
 		40D3FFFA21C3476900381AF5 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				40DBBE2F236DE29C00C55ABA /* master.xcconfig */,
 				40E5D0162358B6880050FB57 /* hpstr_processing.xcconfig */,
 				408D7D1A21C401FF006556DB /* hpstr_event.xcconfig */,
 				40D3FFFE21C347B300381AF5 /* hpstr_main.xcconfig */,
