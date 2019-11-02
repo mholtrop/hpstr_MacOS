@@ -314,6 +314,12 @@
 			children = (
 				409014D0236DBECD00236729 /* ClusterOnTrackAnaProcessor.cxx */,
 				409014CA236DBECD00236729 /* ClusterOnTrackAnaProcessor.h */,
+				40BC14F921C6D422002B95DF /* ECalDataProcessor.cxx */,
+				40BC150121C6D431002B95DF /* ECalDataProcessor.h */,
+				40BC14F721C6D422002B95DF /* EventProcessor.cxx */,
+				40BC150221C6D431002B95DF /* EventProcessor.h */,
+				40AE3D31234F6D9A00178209 /* HPSEventProcessor.cxx */,
+				40AE3D37234F6D9B00178209 /* HPSEventProcessor.h */,
 				409014C9236DBECC00236729 /* MCAnaProcessor.cxx */,
 				409014D4236DBECD00236729 /* MCAnaProcessor.h */,
 				409014CB236DBECD00236729 /* MCEcalHitProcessor.cxx */,
@@ -322,40 +328,36 @@
 				409014CE236DBECD00236729 /* MCParticleProcessor.h */,
 				409014D3236DBECD00236729 /* MCTrackerHitProcessor.cxx */,
 				409014CF236DBECD00236729 /* MCTrackerHitProcessor.h */,
+				40BC14F821C6D422002B95DF /* ParticleProcessor.cxx */,
+				40BC150021C6D431002B95DF /* ParticleProcessor.h */,
 				409014D1236DBECD00236729 /* RecoHitAnaProcessor.cxx */,
 				409014D2236DBECD00236729 /* RecoHitAnaProcessor.h */,
-				40AE3D31234F6D9A00178209 /* HPSEventProcessor.cxx */,
-				40AE3D37234F6D9B00178209 /* HPSEventProcessor.h */,
 				40AE3D35234F6D9B00178209 /* RefittedTracksProcessor.cxx */,
 				40AE3D38234F6D9B00178209 /* RefittedTracksProcessor.h */,
+				40BC14FA21C6D422002B95DF /* SvtDataProcessor.cxx */,
+				40BC14FF21C6D431002B95DF /* SvtDataProcessor.h */,
+				40911CA7234D1DCC006AD16F /* SvtRawDataProcessor.cxx */,
+				40911CA8234D1DCC006AD16F /* SvtRawDataProcessor.h */,
 				40AE3D33234F6D9A00178209 /* TrackingProcessor.cxx */,
 				40AE3D36234F6D9B00178209 /* TrackingProcessor.h */,
 				40AE3D3A234F6D9B00178209 /* utilities.cxx */,
 				40AE3D39234F6D9B00178209 /* utilities.h */,
-				40911CA7234D1DCC006AD16F /* SvtRawDataProcessor.cxx */,
-				40911CA8234D1DCC006AD16F /* SvtRawDataProcessor.h */,
-				40BC14F921C6D422002B95DF /* ECalDataProcessor.cxx */,
-				40BC150121C6D431002B95DF /* ECalDataProcessor.h */,
-				40BC150221C6D431002B95DF /* EventProcessor.h */,
-				40BC14F721C6D422002B95DF /* EventProcessor.cxx */,
-				40BC150021C6D431002B95DF /* ParticleProcessor.h */,
-				40BC14F821C6D422002B95DF /* ParticleProcessor.cxx */,
-				40BC14FA21C6D422002B95DF /* SvtDataProcessor.cxx */,
-				40BC14FF21C6D431002B95DF /* SvtDataProcessor.h */,
 			);
+			indentWidth = 4;
 			name = processors;
 			path = ../processors;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		40A076BB21C419F700A29625 /* processing */ = {
 			isa = PBXGroup;
 			children = (
-				40E49769235388DB00C18547 /* HpsEventFile.h */,
-				40E49768235388DB00C18547 /* IEventFile.h */,
-				40E497622353885300C18547 /* HpsEventFile.cxx */,
 				40A076BE21C41A3000A29625 /* EventFile.cxx */,
 				40A076CC21C41A4000A29625 /* EventFile.h */,
+				40E497622353885300C18547 /* HpsEventFile.cxx */,
+				40E49769235388DB00C18547 /* HpsEventFile.h */,
 				40A076D021C41A4B00A29625 /* HpstrConf.py */,
+				40E49768235388DB00C18547 /* IEventFile.h */,
 				40A076BD21C41A3000A29625 /* ParameterSet.cxx */,
 				40A076CB21C41A4000A29625 /* ParameterSet.h */,
 				40A076C021C41A3000A29625 /* Process.cxx */,
@@ -365,9 +367,11 @@
 				40A076C221C41A3000A29625 /* ProcessorFactory.cxx */,
 				40A076CE21C41A4000A29625 /* ProcessorFactory.h */,
 			);
+			indentWidth = 4;
 			name = processing;
 			path = ../processing;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		40AE3D45234F808D00178209 /* analysis */ = {
 			isa = PBXGroup;
@@ -385,9 +389,11 @@
 				409014AD236DBDAD00236729 /* TrackHistos.cxx */,
 				409014AA236DBDAC00236729 /* TrackHistos.h */,
 			);
+			indentWidth = 4;
 			name = analysis;
 			path = ../analysis;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		40C56FC9236DC07200B5CF80 /* Exec */ = {
 			isa = PBXGroup;
@@ -396,8 +402,10 @@
 				40D0B9DD236DC58D00AD5C98 /* ConfigurePython.h */,
 				40D0B9DC236DC58D00AD5C98 /* hpstr.cxx */,
 			);
+			indentWidth = 4;
 			name = Exec;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		40D3000521C3486700381AF5 /* Products */ = {
 			isa = PBXGroup;
@@ -451,9 +459,11 @@
 				40DA52CC21C428970035D296 /* TriggerData.cxx */,
 				40DA52D021C428A20035D296 /* TriggerData.h */,
 			);
+			indentWidth = 4;
 			name = event;
 			path = ../event;
 			sourceTree = SOURCE_ROOT;
+			tabWidth = 4;
 		};
 		40D3FFF321C3475800381AF5 = {
 			isa = PBXGroup;
