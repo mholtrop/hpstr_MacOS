@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		405F07D7235954ED007D11BD /* processingDef.h in Sources */ = {isa = PBXBuildFile; fileRef = 405F07D62359534B007D11BD /* processingDef.h */; };
 		407E34FF235A6647003265AB /* libprocessing.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BC150D21C6F0F7002B95DF /* libprocessing.dylib */; };
 		407E3505235A8D1B003265AB /* MCParticle.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 407E3503235A8D1A003265AB /* MCParticle.cxx */; };
 		407E3506235A8D1B003265AB /* MCParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 407E3504235A8D1B003265AB /* MCParticle.h */; };
@@ -160,8 +159,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		405F07D4235930FC007D11BD /* processingLinkDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = processingLinkDef.h; path = include/processingLinkDef.h; sourceTree = "<group>"; };
-		405F07D62359534B007D11BD /* processingDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = processingDef.h; path = include/processingDef.h; sourceTree = "<group>"; };
 		406DB8C821C6D3AF007C8A8A /* libprocessors.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libprocessors.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		407E3503235A8D1A003265AB /* MCParticle.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MCParticle.cxx; path = src/MCParticle.cxx; sourceTree = "<group>"; };
 		407E3504235A8D1B003265AB /* MCParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCParticle.h; path = include/MCParticle.h; sourceTree = "<group>"; };
@@ -367,8 +364,6 @@
 				40A076CD21C41A4000A29625 /* Processor.h */,
 				40A076C221C41A3000A29625 /* ProcessorFactory.cxx */,
 				40A076CE21C41A4000A29625 /* ProcessorFactory.h */,
-				405F07D4235930FC007D11BD /* processingLinkDef.h */,
-				405F07D62359534B007D11BD /* processingDef.h */,
 			);
 			name = processing;
 			path = ../processing;
@@ -836,7 +831,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405F07D7235954ED007D11BD /* processingDef.h in Sources */,
 				40E497632353885300C18547 /* HpsEventFile.cxx in Sources */,
 				40BC151A21C6F18C002B95DF /* EventFile.cxx in Sources */,
 				40BC151E21C6F1AA002B95DF /* ProcessorFactory.cxx in Sources */,
