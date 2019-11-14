@@ -104,7 +104,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/data/HPS/HPS_Analysis/hpstr/dst.py"
+            argument = "dst_1.py"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -120,7 +120,7 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "PYTHONPATH"
-            value = "/data/HPS/HPS_Analysis/hpstr/lib/python"
+            value = "/data/HPS/lib/python"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

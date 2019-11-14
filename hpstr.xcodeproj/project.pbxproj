@@ -89,6 +89,10 @@
 		40DA52CF21C428970035D296 /* EventHeader.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40DA52CD21C428970035D296 /* EventHeader.cxx */; };
 		40DA52D221C428A20035D296 /* TriggerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DA52D021C428A20035D296 /* TriggerData.h */; };
 		40DA52D321C428A20035D296 /* EventHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DA52D121C428A20035D296 /* EventHeader.h */; };
+		40E27332237CDD8500691534 /* HodoCluster.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40E2732E237CDD8400691534 /* HodoCluster.cxx */; };
+		40E27333237CDD8500691534 /* HodoCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E2732F237CDD8400691534 /* HodoCluster.h */; };
+		40E27334237CDD8500691534 /* HodoHit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E27330237CDD8400691534 /* HodoHit.h */; };
+		40E27335237CDD8500691534 /* HodoHit.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40E27331237CDD8500691534 /* HodoHit.cxx */; };
 		40E49760235383CC00C18547 /* Event.h in Sources */ = {isa = PBXBuildFile; fileRef = 40D3001F21C3491500381AF5 /* Event.h */; };
 		40E497612353873300C18547 /* EventFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A076CC21C41A4000A29625 /* EventFile.h */; };
 		40E497632353885300C18547 /* HpsEventFile.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40E497622353885300C18547 /* HpsEventFile.cxx */; };
@@ -252,6 +256,10 @@
 		40DA52D021C428A20035D296 /* TriggerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriggerData.h; path = include/TriggerData.h; sourceTree = "<group>"; };
 		40DA52D121C428A20035D296 /* EventHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHeader.h; path = include/EventHeader.h; sourceTree = "<group>"; };
 		40DBBE2F236DE29C00C55ABA /* master.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = master.xcconfig; sourceTree = "<group>"; };
+		40E2732E237CDD8400691534 /* HodoCluster.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HodoCluster.cxx; path = src/HodoCluster.cxx; sourceTree = "<group>"; };
+		40E2732F237CDD8400691534 /* HodoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HodoCluster.h; path = include/HodoCluster.h; sourceTree = "<group>"; };
+		40E27330237CDD8400691534 /* HodoHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HodoHit.h; path = include/HodoHit.h; sourceTree = "<group>"; };
+		40E27331237CDD8500691534 /* HodoHit.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HodoHit.cxx; path = src/HodoHit.cxx; sourceTree = "<group>"; };
 		40E497622353885300C18547 /* HpsEventFile.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HpsEventFile.cxx; path = src/HpsEventFile.cxx; sourceTree = "<group>"; };
 		40E49768235388DB00C18547 /* IEventFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEventFile.h; path = include/IEventFile.h; sourceTree = "<group>"; };
 		40E49769235388DB00C18547 /* HpsEventFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HpsEventFile.h; path = include/HpsEventFile.h; sourceTree = "<group>"; };
@@ -423,6 +431,10 @@
 		40D3000621C3486700381AF5 /* event */ = {
 			isa = PBXGroup;
 			children = (
+				40E2732E237CDD8400691534 /* HodoCluster.cxx */,
+				40E2732F237CDD8400691534 /* HodoCluster.h */,
+				40E27331237CDD8500691534 /* HodoHit.cxx */,
+				40E27330237CDD8400691534 /* HodoHit.h */,
 				409014C3236DBE5F00236729 /* MCEcalHit.cxx */,
 				409014C1236DBE5F00236729 /* MCEcalHit.h */,
 				409014C2236DBE5F00236729 /* MCTrackerHit.cxx */,
@@ -538,6 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D3002A21C3491500381AF5 /* Particle.h in Headers */,
+				40E27333237CDD8500691534 /* HodoCluster.h in Headers */,
 				40911CA6234D1DAB006AD16F /* RawSvtHit.h in Headers */,
 				40E5D0102358B5180050FB57 /* VTPData.h in Headers */,
 				40D3002721C3491500381AF5 /* CalHit.h in Headers */,
@@ -552,6 +565,7 @@
 				40D3002821C3491500381AF5 /* Event.h in Headers */,
 				409014C8236DBE5F00236729 /* MCTrackerHit.h in Headers */,
 				407E3506235A8D1B003265AB /* MCParticle.h in Headers */,
+				40E27334237CDD8500691534 /* HodoHit.h in Headers */,
 				40D3002C21C3491500381AF5 /* EventDef.h in Headers */,
 				40D3002D21C3491500381AF5 /* EventLinkDef.h in Headers */,
 				40DA52D221C428A20035D296 /* TriggerData.h in Headers */,
@@ -859,6 +873,7 @@
 				40E49760235383CC00C18547 /* Event.h in Sources */,
 				40E5D0112358B5180050FB57 /* VTPData.cxx in Sources */,
 				409014C7236DBE5F00236729 /* MCEcalHit.cxx in Sources */,
+				40E27335237CDD8500691534 /* HodoHit.cxx in Sources */,
 				409014C6236DBE5F00236729 /* MCTrackerHit.cxx in Sources */,
 				40D3001A21C3490500381AF5 /* Event.cxx in Sources */,
 				40D3001921C3490500381AF5 /* TrackerHit.cxx in Sources */,
@@ -866,6 +881,7 @@
 				40911CA5234D1DAB006AD16F /* RawSvtHit.cxx in Sources */,
 				40DA52CF21C428970035D296 /* EventHeader.cxx in Sources */,
 				40D3001B21C3490500381AF5 /* Track.cxx in Sources */,
+				40E27332237CDD8500691534 /* HodoCluster.cxx in Sources */,
 				40D3001C21C3490500381AF5 /* Particle.cxx in Sources */,
 				40E5D0122358B5180050FB57 /* TSData.cxx in Sources */,
 				40DA52CE21C428970035D296 /* TriggerData.cxx in Sources */,
