@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40358CF92412CFB3007402E5 /* FitFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 40358CF42412CFB3007402E5 /* FitFunction.h */; };
+		40358CFA2412CFB3007402E5 /* FunctionMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 40358CF52412CFB3007402E5 /* FunctionMath.h */; };
+		40358CFB2412CFB3007402E5 /* ChebyshevFitFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 40358CF62412CFB3007402E5 /* ChebyshevFitFunction.h */; };
+		40358CFC2412CFB3007402E5 /* ChebyshevFitFunction.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40358CF72412CFB3007402E5 /* ChebyshevFitFunction.cxx */; };
+		40358CFD2412CFB3007402E5 /* FunctionMath.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 40358CF82412CFB3007402E5 /* FunctionMath.cxx */; };
 		407BA1472408B25E00063752 /* Tracker3DHitProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 407BA1432408B25E00063752 /* Tracker3DHitProcessor.h */; };
 		407BA1482408B25E00063752 /* Tracker3DHitProcessor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 407BA1442408B25E00063752 /* Tracker3DHitProcessor.cxx */; };
 		407E34FF235A6647003265AB /* libprocessing.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BC150D21C6F0F7002B95DF /* libprocessing.dylib */; };
@@ -209,6 +214,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		40358CF42412CFB3007402E5 /* FitFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FitFunction.h; path = include/FitFunction.h; sourceTree = "<group>"; };
+		40358CF52412CFB3007402E5 /* FunctionMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionMath.h; path = include/FunctionMath.h; sourceTree = "<group>"; };
+		40358CF62412CFB3007402E5 /* ChebyshevFitFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChebyshevFitFunction.h; path = include/ChebyshevFitFunction.h; sourceTree = "<group>"; };
+		40358CF72412CFB3007402E5 /* ChebyshevFitFunction.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChebyshevFitFunction.cxx; path = src/ChebyshevFitFunction.cxx; sourceTree = "<group>"; };
+		40358CF82412CFB3007402E5 /* FunctionMath.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionMath.cxx; path = src/FunctionMath.cxx; sourceTree = "<group>"; };
 		406DB8C821C6D3AF007C8A8A /* libprocessors.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libprocessors.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		407BA1432408B25E00063752 /* Tracker3DHitProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tracker3DHitProcessor.h; path = include/Tracker3DHitProcessor.h; sourceTree = "<group>"; };
 		407BA1442408B25E00063752 /* Tracker3DHitProcessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tracker3DHitProcessor.cxx; path = src/Tracker3DHitProcessor.cxx; sourceTree = "<group>"; };
@@ -301,8 +311,8 @@
 		40E37EFA240ADF620068D972 /* HodoCluster.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HodoCluster.cxx; path = src/HodoCluster.cxx; sourceTree = "<group>"; };
 		40E37EFB240ADF620068D972 /* HodoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HodoCluster.h; path = include/HodoCluster.h; sourceTree = "<group>"; };
 		40E37EFC240ADF620068D972 /* HodoHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HodoHit.h; path = include/HodoHit.h; sourceTree = "<group>"; };
-		40E37F01240ADFBD0068D972 /* HodoDataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HodoDataProcessor.h; path = include/HodoDataProcessor.h; sourceTree = "<group>"; };
-		40E37F02240ADFBD0068D972 /* HodoDataProcessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HodoDataProcessor.cxx; path = src/HodoDataProcessor.cxx; sourceTree = "<group>"; };
+		40E37F01240ADFBD0068D972 /* HodoDataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = HodoDataProcessor.h; path = include/HodoDataProcessor.h; sourceTree = "<group>"; };
+		40E37F02240ADFBD0068D972 /* HodoDataProcessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = HodoDataProcessor.cxx; path = src/HodoDataProcessor.cxx; sourceTree = "<group>"; };
 		40E37F05240AE0030068D972 /* VertexProcessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VertexProcessor.cxx; path = src/VertexProcessor.cxx; sourceTree = "<group>"; };
 		40E37F06240AE0030068D972 /* VertexProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VertexProcessor.h; path = include/VertexProcessor.h; sourceTree = "<group>"; };
 		40E37F11240AE0B70068D972 /* BhToysHistoProcessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BhToysHistoProcessor.cxx; path = ../processors/src/BhToysHistoProcessor.cxx; sourceTree = "<group>"; };
@@ -486,6 +496,11 @@
 		40AE3D45234F808D00178209 /* analysis */ = {
 			isa = PBXGroup;
 			children = (
+				40358CF72412CFB3007402E5 /* ChebyshevFitFunction.cxx */,
+				40358CF62412CFB3007402E5 /* ChebyshevFitFunction.h */,
+				40358CF42412CFB3007402E5 /* FitFunction.h */,
+				40358CF82412CFB3007402E5 /* FunctionMath.cxx */,
+				40358CF52412CFB3007402E5 /* FunctionMath.h */,
 				40E37F30240AE11C0068D972 /* AnaHelpers.cxx */,
 				40E37F35240AE11C0068D972 /* AnaHelpers.h */,
 				40E37F39240AE11C0068D972 /* BaseSelector.cxx */,
@@ -717,12 +732,15 @@
 				40E37F71240AE1970068D972 /* HistoManager.h in Headers */,
 				40E37F66240AE1960068D972 /* BumpHunter.h in Headers */,
 				40E37F62240AE1960068D972 /* AnaHelpers.h in Headers */,
+				40358CFB2412CFB3007402E5 /* ChebyshevFitFunction.h in Headers */,
 				40E37F79240AE1970068D972 /* TrackHistos.h in Headers */,
 				40E37F73240AE1970068D972 /* MCAnaHistos.h in Headers */,
 				40E37F6C240AE1960068D972 /* HpsFitResult.h in Headers */,
+				40358CFA2412CFB3007402E5 /* FunctionMath.h in Headers */,
 				40E37F77240AE1970068D972 /* RecoHitAnaHistos.h in Headers */,
 				40E37F68240AE1960068D972 /* FlatTupleMaker.h in Headers */,
 				40E37F6A240AE1960068D972 /* HistogramHelpers.h in Headers */,
+				40358CF92412CFB3007402E5 /* FitFunction.h in Headers */,
 				40E37F6D240AE1960068D972 /* json.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1096,10 +1114,12 @@
 				40E37F6B240AE1960068D972 /* HpsFitResult.cxx in Sources */,
 				40E37F61240AE1960068D972 /* AnaHelpers.cxx in Sources */,
 				40E37F78240AE1970068D972 /* TrackHistos.cxx in Sources */,
+				40358CFC2412CFB3007402E5 /* ChebyshevFitFunction.cxx in Sources */,
 				40E37F74240AE1970068D972 /* ModuleMapper.cxx in Sources */,
 				40E37F63240AE1960068D972 /* BaseSelector.cxx in Sources */,
 				40E37F65240AE1960068D972 /* BumpHunter.cxx in Sources */,
 				40E37F72240AE1970068D972 /* MCAnaHistos.cxx in Sources */,
+				40358CFD2412CFB3007402E5 /* FunctionMath.cxx in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

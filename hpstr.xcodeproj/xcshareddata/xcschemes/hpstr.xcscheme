@@ -132,18 +132,18 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "dst_1.py"
+            argument = "test.py"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/data/HPS/data/physrun2019/slcio/hps_010084/hps_010084_00003.slcio"
+            argument = "test.slcio"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "DYLD_LIBRARY_PATH"
-            value = "/Users/maurik/root/root.git/lib:/data/HPS/HPS_Analysis/Debug"
+            value = "/Users/maurik/root/root.git/lib"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
