@@ -132,11 +132,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "test.py"
+            argument = "Test/test.py"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "test.slcio"
+            argument = "Test/test.slcio"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
